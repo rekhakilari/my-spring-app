@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'shiva123'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_af9891744e17471b8c08ec71f81b9352 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_54379eea8cc041e2b4fc8570b83995c5 }}
         package: '${{ github.workspace }}/target/*.jar'
